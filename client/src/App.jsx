@@ -28,6 +28,7 @@ import { AllStudentsAttendanceProvider } from './store/AllStudentsAttendanceCont
 import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
 import HowToUse from './pages/HowToUse/HowToUse'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 
 const App = () => {
   const [todaysActions, setTodaysActions] = useState([]);
@@ -77,6 +78,7 @@ const App = () => {
                 pauseOnHover={true}
                 theme="light"
               />
+              <SpeedInsights />
             </div>
           </AllStudentsAttendanceProvider>
         </AttendanceProvider>
