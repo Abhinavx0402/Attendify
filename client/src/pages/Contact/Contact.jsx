@@ -35,18 +35,18 @@ export default function Contact() {
                             <a href="https://github.com/abhi1913ek-79ri" target="_blank" rel="noopener noreferrer"><Github size={20} style={{ color: '#6366f1', marginRight: 4 }} /> GitHub</a>
                         </div>
                     </div>
-                    {/* Rahul Card */}
+                    {/* Abhinav Card */}
                     <div className={styles.teamCard}>
                         <div className={styles.teamHeader}>
                             <User size={32} style={{ color: '#6366f1' }} />
-                            <span className={styles.teamName}><b>Rahul Kumar</b></span>
+                            <span className={styles.teamName}><b>Abhinav Kumar Jaiswal</b></span>
                         </div>
                         <div className={styles.teamInfo}>
                             <span className={styles.teamUniv}>Student at University School of Information Communication & Technology, GGSIPU Dwarka, New Delhi</span>
                         </div>
                         <div className={styles.teamLinks}>
-                            <a href="https://github.com/Rahul-Kumar-code" target="_blank" rel="noopener noreferrer"><Github size={20} style={{ color: '#6366f1', marginRight: 4 }} /> GitHub</a>
-                            <a href="https://www.linkedin.com/in/rahul-kumar-84273134a/" target="_blank" rel="noopener noreferrer"><Briefcase size={20} style={{ color: '#6366f1', marginRight: 4 }} /> LinkedIn</a>
+                            <a href="https://github.com/Abhinavx0402" target="_blank" rel="noopener noreferrer"><Github size={20} style={{ color: '#6366f1', marginRight: 4 }} /> GitHub</a>
+                            <a href="https://www.linkedin.com/in/abhinav-kumar-jaiswal-058b402b1/" target="_blank" rel="noopener noreferrer"><Briefcase size={20} style={{ color: '#6366f1', marginRight: 4 }} /> LinkedIn</a>
                         </div>
                     </div>
                 </div>
