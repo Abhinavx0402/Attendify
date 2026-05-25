@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+.AttendanceStatsChart{
+    background-color: white;
+}
+.AttendanceStatsChart-heading{
+    color: hsl(244, 98%, 19%);
+}

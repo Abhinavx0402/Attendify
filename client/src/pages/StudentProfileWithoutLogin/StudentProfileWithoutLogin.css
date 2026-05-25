@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+
+/* Overall Layout */
+.profile-page {
+  @apply w-full flex flex-col justify-center text-center gap-5;
+}
+
+.profile-page button {
+  @apply pb-1.5;
+}
+
+.profile-container {
+  @apply py-10 space-y-1 md:px-10 max-md:px-3 bg-white rounded-lg shadow-2xl;
+}
+
+.profile-image-container {
+  @apply flex items-center justify-center p-4 bg-gray-100 rounded-lg shadow-md;
+}
+
+.profile-image {
+  @apply w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg hover:scale-105 transition-transform duration-300;
+}
+
+.profile-heading {
+  @apply md:text-3xl text-2xl py-3 text-blue-950;
+}
+
+/* Profile Content */
+.profile-content-section {
+  @apply grid md:grid-cols-2;
+}
+
+.profile-content-section p {
+  @apply text-start grid grid-cols-3;
+}
+
+.profile-content-section p .label {
+  @apply pr-2 col-span-1 font-medium text-blue-950;
+}
+
+.profile-content-section p .value {
+  @apply pr-2 col-span-2;
+}
+
+.last-marked-plus-isCritical {
+  @apply py-5 flex flex-col gap-1.5 justify-center;
+}

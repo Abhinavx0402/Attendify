@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.view {
+  color: blue;
+  min-height: 70vh;
+}

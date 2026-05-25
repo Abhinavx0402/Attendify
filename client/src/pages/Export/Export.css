@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.export {
+  color: blue;
+  min-height: 70vh;
+}
